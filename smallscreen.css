@@ -492,6 +492,8 @@ footer > nav:first-child {
 }
 
 .cat-grid-items > ul li::before {
+  position: absolute;
+  left: 11px;
   content: "\2022";
   color: #f42;
   font-weight: bold;
@@ -499,7 +501,14 @@ footer > nav:first-child {
   width: 1em;
 }
 
-.cat-grid-items > ul li{
+.cat-grid-items > ul > li {
+  padding: 10px 0;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.cat-grid-items > ul > li > a{
+  text-decoration: none;
   color: #555;
 }
 
