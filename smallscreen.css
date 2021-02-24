@@ -441,12 +441,30 @@ footer > nav:first-child {
 
 #categories{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   margin: 10px 10px;
 }
 
+.cat-grid-items{
+  width: 100%;
+}
+
+.cat-header{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.cat-header li{
+  float: left;
+}
 
 .cat-image {
+
+}
+
+.cat-poster{
   background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
   background-size: 100% 100%;
   position: absolute;
@@ -455,9 +473,7 @@ footer > nav:first-child {
   bottom: 0;
   right: 0;
   z-index: 1;
-}
-
-.cat-poster{
   position: relative;
   width: 100%;
+  height: calc((100vw - 20px) * 0.75);
 }
