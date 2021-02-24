@@ -438,3 +438,26 @@ footer > nav:first-child {
 .latest-funding-section > div:last-child > section:nth-child(3) {
   display: none;
 }
+
+#categories{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 10px 10px;
+}
+
+
+.cat-image {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.cat-poster{
+  position: relative;
+  width: 100%;
+}
