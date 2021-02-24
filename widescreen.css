@@ -1,0 +1,67 @@
+.cover-logo,
+.cover-date,
+.main-article-header,
+#gradient-div {
+  display: block;
+}
+
+.main-article-content {
+  position: relative;
+}
+
+.cover-gradient {
+  background: transparent url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
+.cover-logo {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.cover-date {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+#main-article .article-flex {
+  justify-content: space-between;
+}
+
+.latest-funding-section > div:last-child > section:last-child {
+  display: block;
+}
+
+.story-investment {
+  width: 23.5%;
+}
+
+.story-flex .story-investment:nth-child(3) {
+  margin-right: 2%;
+}
+
+.latest-funding-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#main-article .cover-title {
+  font-size: 56px;
+}
