@@ -21,54 +21,50 @@ $primary-color: #f42;
 
 .mobile-latest-deals-link-image {
   margin-right: 0;
-}
-
-.mobile-latest-deals-link-image > a {
-  display: block;
-  width: 100%;
-}
-
-.mobile-latest-deals-link-image > a > img {
-  width: 100%;
-  height: 200px;
+  > a {
+    display: block;
+    width: 100%;
+    > img {
+      width: 100%;
+      height: 200px;
+    }
+  }
 }
 
 .story-investment > div {
   background: rgb(255, 250, 248);
 }
 
-.basic-header > div:first-child {
-  background-color: #131313;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
-}
-
-.basic-header > div:first-child li {
-  vertical-align: super;
-}
-
-.mobile-header nav a {
-  color: rgb(170, 170, 170);
-  text-decoration: none;
-  font-size: 14px;
-  padding: 0 5px;
-}
-
-.basic-header > div:first-child a {
-  color: hsla(0, 0%, 100%, 0.6);
-  text-decoration: none;
-  font-size: 12px;
-  padding: 0 5px;
+.basic-header{
+  > div:first-child {
+    background-color: #131313;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    a {
+        color: hsla(0, 0%, 100%, 0.6);
+        text-decoration: none;
+        font-size: 12px;
+        padding: 0 5px;
+      }
+    li {
+        vertical-align: super;
+    }
+  }
 }
 
 .mobile-header {
   padding: 5px 10px;
-}
-
-.mobile-header nav {
-  display: flex;
-  align-items: center;
+  nav {
+    display: flex;
+    align-items: center;
+    a {
+        color: rgb(170, 170, 170);
+        text-decoration: none;
+        font-size: 14px;
+        padding: 0 5px;
+      }
+  }
 }
 
 .search {
@@ -112,10 +108,6 @@ $primary-color: #f42;
   }
 }
 
-.latest-funding-section > div:last-child > section:nth-child(3) {
-  display: block;
-}
-
 .story-flex {
   display: flex;
   width: 100%;
@@ -136,6 +128,9 @@ $primary-color: #f42;
 
 .latest-funding-section > div:last-child {
   margin-top: unset;
+  section:nth-child(3) {
+    display: block;
+  }
 }
 
 /* hover classes */
@@ -165,11 +160,10 @@ $primary-color: #f42;
 #mobile-latest-news {
   width: 80%;
   margin: 0 10%;
-}
-
-#mobile-latest-news img {
-  width: 100%;
-  height: 10vh;
+  img {
+    width: 100%;
+    height: 10vh;
+  }
 }
 
 .mobile-latest-news-inner {
