@@ -514,8 +514,6 @@ footer > nav:first-child {
   width: 1em;
 }
 
-
-
 .cat-grid-items > ul > li > a{
   text-decoration: none;
   color: #555;
@@ -603,29 +601,105 @@ footer > nav:first-child {
   height: 96px;
   width: 96px;
 } 
+/* deals starts here */
+.text-link-1-deals {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+ }
+
+.text-link-1-deals:hover {
+   color: #f42
+}
+
+.text-link-2-deals {
+  margin-top: 10px;
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+}
+
+.crossed-text {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+}
+
+#mobile-latest-deals{
+  margin: 10px;
+}
+
+#deals-header{
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+#deals-header-left,
+#deals-header-right {
+  text-decoration: none;
+  color: #f42;
+}
+
+#deals-header-left:hover,
+#deals-header-right:hover {
+  color: black;
+}
+
+#deals-header-left{
+  float: left;
+  font-size: 28px;
+  font-family: avalon;
+}
+
+#deals-header-right{
+  float: right;
+}
+
+#latest-display-deals{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+  grid-gap: 10px 10px;
+}
+
+.mobile-latest-deals-inner{
+  display: flex;
+}
+
+.mobile-latest-deals-link-image{
+  margin-right: 10px;
+}
+/* deals ends here */
+
+/* remove this later */
+.mobile-latest-deals-link-image > a > img{
+  width: 75px;
+  height: 75px;
+}
+/* remove this later */
+
+
+/* this is for latest news */
+#header-link {
+  text-decoration: none;
+  color: #f42;
+}
 
 #mobile-latest-news {
   margin: 20px 20px;
   display: flex;
   flex-direction: column;
 }
-
 .mobile-latest-news-inner {
   display: flex;
   flex-direction: row;
   margin: 10px 0;
 }
-
-
 #mobile-latest-news h2 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
-}
-
-#header-link {
-  text-decoration: none;
-  color: #f42;
 }
 
 #mobile-latest-news img {
@@ -649,3 +723,4 @@ footer > nav:first-child {
   color: gray;
   font-weight: bold;
 }
+/* this is for latest news */
