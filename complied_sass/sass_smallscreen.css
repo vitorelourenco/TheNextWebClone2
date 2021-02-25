@@ -158,13 +158,6 @@ h5 {
   width: 15px;
 }
 
-.footer-links-menu li a {
-  color: #aaa;
-  text-decoration: none;
-  font-family: Shentox, sans-serif;
-  font-weight: bold;
-}
-
 .latest-funding-header h2 a {
   font-family: avalon, sans-serif;
   color: #f42;
@@ -393,13 +386,11 @@ h5 {
   align-items: center;
   margin-top: 10px;
 }
-
 .cover-byline > li {
   margin-right: 10px;
   display: flex;
   align-items: center;
 }
-
 .cover-byline > li > svg {
   padding-right: 5px;
 }
@@ -449,6 +440,12 @@ footer > nav:first-child {
   font-size: 13px;
   line-height: 24px;
   margin: 0 4px;
+}
+.footer-links-menu li a {
+  color: #aaa;
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-weight: bold;
 }
 
 .footer-legal {

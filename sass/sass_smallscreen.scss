@@ -172,13 +172,6 @@ height: 15px;
 width: 15px;
 }
 
-.footer-links-menu li a {
-color: #aaa;
-text-decoration: none;
-font-family: Shentox, sans-serif;
-font-weight: bold;
-}
-
 .latest-funding-header h2 a {
 font-family: avalon, sans-serif;
 color: $primary-color;
@@ -409,19 +402,17 @@ z-index: 2;
 }
 
 .cover-byline {
-display: flex;
-align-items: center;
-margin-top: 10px;
-}
-
-.cover-byline > li {
-margin-right: 10px;
-display: flex;
-align-items: center;
-}
-
-.cover-byline > li > svg {
-padding-right: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  >li{ 
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    > svg {
+      padding-right: 5px;
+    }
+  }
 }
 
 #main-article {
@@ -462,13 +453,19 @@ display: inline-block;
 }
 
 .footer-links-menu li {
-font-family: Shentox, sans-serif;
-font-weight: 500;
-text-transform: uppercase;
-display: inline-block;
-font-size: 13px;
-line-height: 24px;
-margin: 0 4px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+  a {
+    color: #aaa;
+    text-decoration: none;
+    font-family: Shentox, sans-serif;
+    font-weight: bold;
+  }
 }
 
 .footer-legal {
