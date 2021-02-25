@@ -114,3 +114,35 @@
   max-width: 368px;
 }
 /* categories responsive */
+
+/* Latest Deals */
+
+#latest-display-deals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px 50px;
+}
+
+#mobile-latest-deals {
+  width: 70%;
+  margin: 0 15%;
+}
+
+#mobile-latest-deals img {
+  width: 80%;
+  height: 80%;
+}
+
+.mobile-latest-deals-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.link-image-latest-text-deals {
+  width: 100%;
+}
+.text-link-1-deals b {
+  width: 30px;
+}
