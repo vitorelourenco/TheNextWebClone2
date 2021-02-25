@@ -169,3 +169,17 @@
 .link-image-latest-text {
   width: 100%;
 }
+
+/* categories responsive */
+#categories{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  margin: 10px 10px;
+  grid-gap: 20px;
+}
+
+.cat-poster{
+  height: calc((50vw - 40px) * 0.75);
+}
+/* categories responsive */

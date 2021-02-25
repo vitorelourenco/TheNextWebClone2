@@ -442,8 +442,9 @@ footer > nav:first-child {
 #categories{
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: repeat(9, auto);
   margin: 10px 10px;
+  grid-gap: 20px;
 }
 
 #categories > section {
@@ -491,13 +492,21 @@ footer > nav:first-child {
   text-decoration: none;
 }
 
+/* cat grid items ul goes here */
 .cat-grid-items > ul {
   margin-left: 1em;
 }
 
+.cat-grid-items > ul > li {
+  padding: 10px 0;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  position: relative;
+}
+
 .cat-grid-items > ul li::before {
   position: absolute;
-  left: 11px;
+  left: -13px;
   content: "\2022";
   color: #f42;
   font-weight: bold;
@@ -505,16 +514,18 @@ footer > nav:first-child {
   width: 1em;
 }
 
-.cat-grid-items > ul > li {
-  padding: 10px 0;
-  font-size: 13px;
-  border-bottom: 1px solid rgb(238, 238, 238);
-}
+
 
 .cat-grid-items > ul > li > a{
   text-decoration: none;
   color: #555;
 }
+
+.cat-grid-items > ul > li > a:hover{
+  color: black;
+}
+
+/* cat grid items ul ends here */
 
 .cat-header{
   position: absolute;
@@ -553,6 +564,11 @@ footer > nav:first-child {
   width: 100%;
 }
 
+.secondary-article h4,
+.secondary-article h5{
+  padding-right: 100px;
+}
+
 .secondary-article h4{
   padding-left: 20px;
   color: #f42;
@@ -568,16 +584,25 @@ footer > nav:first-child {
 }
 
 .secondary-article h5{
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
   color: #f42;
+}
+
+.sec-art-img-anchor{
+  position: absolute;
+  right: 0;
+  height: 96px;
+  width: 96px;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .secondary-article img{
   float: right;
   height: 96px;
   width: 96px;
-}
+} 
 
 #mobile-latest-news {
   margin: 20px 20px;
