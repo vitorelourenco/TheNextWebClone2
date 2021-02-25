@@ -490,8 +490,7 @@ footer > nav:first-child {
   padding: 16px;
 }
 
-.latest-funding-section > div:last-child > section:last-child,
-.latest-funding-section > div:last-child > section:nth-child(3) {
+.latest-funding-section > div:last-child > section:last-child {
   display: none;
 }
 
