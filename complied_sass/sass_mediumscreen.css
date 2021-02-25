@@ -33,20 +33,19 @@
   background: #fffaf8;
 }
 
-.basic-header > div:first-child {
-  background-color: #131313;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 10px;
+.nav-funding-info li {
+  position: relative;
+  padding: 0.75em 20px 0.75em 0;
 }
-.basic-header > div:first-child a {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  font-size: 12px;
-  padding: 0 5px;
-}
-.basic-header > div:first-child li {
-  vertical-align: super;
+.nav-funding-info li:first-child::after,
+.nav-funding-info li:nth-child(2)::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  pointer-events: none;
+  position: absolute;
+  color: #f42;
 }
 
 .mobile-header {
@@ -61,6 +60,22 @@
   text-decoration: none;
   font-size: 14px;
   padding: 0 5px;
+}
+
+.basic-header > div:first-child {
+  background-color: #131313;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.basic-header > div:first-child a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 5px;
+}
+.basic-header > div:first-child li {
+  vertical-align: super;
 }
 
 .search {
@@ -84,21 +99,6 @@
 
 #main-article .cover-title {
   font-size: 40px;
-}
-
-.nav-funding-info li {
-  position: relative;
-  padding: 0.75em 20px 0.75em 0;
-}
-.nav-funding-info li:first-child::after,
-.nav-funding-info li:nth-child(2)::after {
-  content: "|";
-  margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
-  pointer-events: none;
-  position: absolute;
-  color: #f42;
 }
 
 .story-flex {
