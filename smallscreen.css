@@ -484,11 +484,11 @@ footer > nav:first-child {
 
 .cat-grid-items > article > header li {
   font-size: 12px;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .cat-grid-items > article > header li a {
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   text-decoration: none;
 }
 
@@ -510,7 +510,7 @@ footer > nav:first-child {
   content: "\2022";
   color: #f42;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
 }
 
@@ -601,17 +601,18 @@ footer > nav:first-child {
   float: right;
   height: 96px;
   width: 96px;
-} 
+}
+
 /* deals starts here */
 .text-link-1-deals {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 14px;
- }
+}
 
 .text-link-1-deals:hover {
-   color: #f42
+  color: #f42;
 }
 
 .text-link-2-deals {
@@ -650,7 +651,7 @@ footer > nav:first-child {
 #deals-header-left {
   float: left;
   font-size: 28px;
-  font-family: avalon;
+  font-family: avalon, sans-serif;
 }
 
 #deals-header-right {
@@ -671,6 +672,7 @@ footer > nav:first-child {
 .mobile-latest-deals-link-image {
   margin-right: 10px;
 }
+
 /* deals ends here */
 
 .mobile-latest-deals-link-image > a > img {
@@ -689,11 +691,13 @@ footer > nav:first-child {
   display: flex;
   flex-direction: column;
 }
+
 .mobile-latest-news-inner {
   display: flex;
   flex-direction: row;
   margin: 10px 0;
 }
+
 #mobile-latest-news h2 {
   font-size: 25px;
   font-weight: bold;
@@ -721,4 +725,5 @@ footer > nav:first-child {
   color: gray;
   font-weight: bold;
 }
+
 /* this is for latest news */
