@@ -381,7 +381,6 @@ footer {
   text-align: center;
   background-color: black;
 }
-
 footer > nav:first-child {
   padding: 2.5em 0;
 }
@@ -419,7 +418,6 @@ footer > nav:first-child {
   font-weight: 400;
   font-size: 13px;
 }
-
 .footer-legal li {
   display: block;
 }
@@ -431,6 +429,12 @@ footer > nav:first-child {
 /* latest funding section */
 .latest-funding-section {
   padding: 0 10px;
+}
+.latest-funding-section > div:last-child {
+  margin-top: 1em;
+}
+.latest-funding-section > div:last-child > section:last-child {
+  display: none;
 }
 
 .latest-funding-header h2 svg {
@@ -458,10 +462,6 @@ footer > nav:first-child {
 .story-flex section {
   background: #fffaf8;
   margin-bottom: 10px;
-}
-
-.latest-funding-section > div:last-child {
-  margin-top: 1em;
 }
 
 .story-investmentCard-deets h4 {
@@ -532,10 +532,6 @@ footer > nav:first-child {
 
 .story-investmentCard-bit:not(:last-child) {
   margin-bottom: 0.5em;
-}
-
-.latest-funding-section > div:last-child > section:last-child {
-  display: none;
 }
 
 #categories {
