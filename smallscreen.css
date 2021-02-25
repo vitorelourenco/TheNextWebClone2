@@ -214,10 +214,16 @@ h5 {
   transform: translateY(9px);
 }
 
+.nav-message-announcement > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .nav-message-announcement {
   line-height: 60px;
   font-family: maquette, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   padding: 5px 10px;
   box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
   background: #fd3;
@@ -632,7 +638,7 @@ footer > nav:first-child {
 }
 
 #mobile-latest-deals {
-  margin: 10px 10px 340px 10px;
+  margin: 10px 10px 20px 10px;
 }
 
 #deals-header {
