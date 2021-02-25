@@ -117,32 +117,23 @@
 
 /* Latest Deals */
 
+#deals-header{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 #latest-display-deals {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: 1fr 1fr;
-  grid-gap: 20px 50px;
-}
-
-#mobile-latest-deals {
-  width: 70%;
-  margin: 0 15%;
-}
-
-#mobile-latest-deals img {
-  width: 80%;
-  height: 80%;
+  grid-gap: 20px 30px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .mobile-latest-deals-inner {
   display: flex;
   flex-direction: column;
   margin: 10px 0;
-}
-
-.link-image-latest-text-deals {
-  width: 100%;
-}
-.text-link-1-deals b {
-  width: 30px;
+  max-width: 270px;
 }
