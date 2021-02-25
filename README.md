@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone/ )
+[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone2/ )
 
 
 ### Deployment
