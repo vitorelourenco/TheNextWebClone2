@@ -161,17 +161,6 @@ h5 {
   white-space: nowrap;
 }
 
-.footer-links-social li a {
-background: #333;
-border: 1px solid #333;
-border-radius: 50%;
-display: block;
-padding: 12px;
-text-align: center;
-height: 15px;
-width: 15px;
-}
-
 .latest-funding-header h2 {
   a {
     font-family: avalon, sans-serif;
@@ -251,10 +240,6 @@ width: 15px;
   }
 }
 
-.cat-header li {
-float: left;
-}
-
 .mobile-header {
 display: flex;
 justify-content: space-between;
@@ -268,11 +253,10 @@ padding: 16px 10px;
 width: 106px;
 will-change: height;
 text-align: center;
-}
-
-.logo svg {
-width: 65px;
-margin: 0 auto;
+svg {
+    width: 65px;
+    margin: 0 auto;
+    }
 }
 
 .story-byline {
@@ -321,12 +305,6 @@ margin: 0 auto;
   }
 }
 
-.nav-message-announcement > p {
-white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;
-}
-
 .nav-message-announcement {
 line-height: 60px;
 font-family: maquette, sans-serif;
@@ -338,6 +316,11 @@ color: #000;
 display: block;
 text-decoration: none;
 font-weight: bold;
+> p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
 }
 
 #grid-container {
@@ -458,11 +441,20 @@ background: #131313;
 }
 
 .footer-links-social {
-margin-bottom: 1.5em;
-}
-
-.footer-links-social li {
-display: inline-block;
+  margin-bottom: 1.5em;
+  li {
+    display: inline-block;
+    a {
+      background: #333;
+      border: 1px solid #333;
+      border-radius: 50%;
+      display: block;
+      padding: 12px;
+      text-align: center;
+      height: 15px;
+      width: 15px;
+    }
+  }
 }
 
 .footer-links-menu li {
@@ -512,18 +504,18 @@ height: 9px;
 }
 
 .deals-header-more {
-padding-top: 1em;
-color: $primary-color;
-text-decoration: none;
-display: block;
-font-family: maquette, sans-serif;
-font-size: 14px;
-font-weight: 400;
+  padding-top: 1em;
+  color: $primary-color;
+  text-decoration: none;
+  display: block;
+  font-family: maquette, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .story-flex section {
-background: rgb(255, 250, 248);
-margin-bottom: 10px;
+  background: rgb(255, 250, 248);
+  margin-bottom: 10px;
 }
 
 .story-investmentCard-deets {
@@ -559,151 +551,152 @@ margin-bottom: 10px;
 /* cat grid items ul ends here */
 
 .cat-header {
-position: absolute;
-bottom: 20px;
-left: 20px;
-z-index: 3;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 3;
+  li {
+    float: left;
+  }
 }
 
 .cat-image {
-background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
-background-size: 100% 100%;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 2;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
 .cat-poster {
-background-size: 100% 100%;
-position: relative;
-width: 100%;
-height: calc((100vw - 20px) * 0.75);
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: calc((100vw - 20px) * 0.75);
 }
 
 .sec-art-img-anchor {
-position: absolute;
-right: 0;
-height: 96px;
-width: 96px;
-background-position: 50% 50%;
-background-size: cover;
+  position: absolute;
+  right: 0;
+  height: 96px;
+  width: 96px;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 /* deals starts here */
 .text-link-1-deals {
-text-decoration: none;
-color: black;
-font-weight: bold;
-font-size: 14px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .text-link-1-deals:hover {
-color: $primary-color;
+  color: $primary-color;
 }
 
 .text-link-2-deals {
-margin-top: 10px;
-color: rgb(85, 85, 85);
-font-size: 14px;
+  margin-top: 10px;
+  color: rgb(85, 85, 85);
+  font-size: 14px;
 }
 
 .crossed-text {
-text-decoration: line-through;
-color: gray;
-font-size: 12px;
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
 }
 
 #mobile-latest-deals {
-margin: 10px 10px 20px 10px;
+  margin: 10px 10px 20px 10px;
 }
 
 #deals-header {
-height: 32px;
-line-height: 32px;
-margin-bottom: 20px;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
 }
 
 #deals-header-left,
 #deals-header-right {
-text-decoration: none;
-color: $primary-color;
+  text-decoration: none;
+  color: $primary-color;
 }
 
 #deals-header-left {
-float: left;
-font-size: 28px;
-font-family: avalon, sans-serif;
+  float: left;
+  font-size: 28px;
+  font-family: avalon, sans-serif;
 }
 
 #deals-header-right {
-float: right;
+  float: right;
 }
 
 #deals-header-left:hover,
 #deals-header-right:hover {
-color: black;
+  color: black;
 }
 
 #latest-display-deals {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: repeat(8, auto);
-grid-gap: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+  grid-gap: 10px 10px;
 }
 
 .mobile-latest-deals-inner {
-display: flex;
+  display: flex;
 }
 
 /* deals ends here */
 
 /* this is for latest news */
 #header-link {
-text-decoration: none;
-color: $primary-color;
+  text-decoration: none;
+  color: $primary-color;
 }
 
 #mobile-latest-news {
-margin: 20px 20px;
-display: flex;
-flex-direction: column;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+  }
 }
 
 .mobile-latest-news-inner {
-display: flex;
-flex-direction: row;
-margin: 10px 0;
-}
-
-#mobile-latest-news h2 {
-font-size: 25px;
-font-weight: bold;
-margin-bottom: 20px;
-}
-
-#mobile-latest-news img {
-width: 75px;
-height: 75px;
-margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
 }
 
 .text-link-1 {
-text-decoration: none;
-color: black;
-font-weight: bold;
-font-size: 14px;
-margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .text-link-2 {
-margin-top: 10px;
-font-size: 11px;
-text-decoration: none;
-color: gray;
-font-weight: bold;
+  margin-top: 10px;
+  font-size: 11px;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
 }
 
 /* this is for latest news */

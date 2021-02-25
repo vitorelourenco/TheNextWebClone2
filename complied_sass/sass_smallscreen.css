@@ -147,17 +147,6 @@ h5 {
   white-space: nowrap;
 }
 
-.footer-links-social li a {
-  background: #333;
-  border: 1px solid #333;
-  border-radius: 50%;
-  display: block;
-  padding: 12px;
-  text-align: center;
-  height: 15px;
-  width: 15px;
-}
-
 .latest-funding-header h2 a {
   font-family: avalon, sans-serif;
   color: #f42;
@@ -235,10 +224,6 @@ h5 {
   width: 1em;
 }
 
-.cat-header li {
-  float: left;
-}
-
 .mobile-header {
   display: flex;
   justify-content: space-between;
@@ -253,7 +238,6 @@ h5 {
   will-change: height;
   text-align: center;
 }
-
 .logo svg {
   width: 65px;
   margin: 0 auto;
@@ -302,12 +286,6 @@ h5 {
   transform: translateY(9px);
 }
 
-.nav-message-announcement > p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .nav-message-announcement {
   line-height: 60px;
   font-family: maquette, sans-serif;
@@ -319,6 +297,11 @@ h5 {
   display: block;
   text-decoration: none;
   font-weight: bold;
+}
+.nav-message-announcement > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #grid-container {
@@ -438,9 +421,18 @@ footer > nav:first-child {
 .footer-links-social {
   margin-bottom: 1.5em;
 }
-
 .footer-links-social li {
   display: inline-block;
+}
+.footer-links-social li a {
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  height: 15px;
+  width: 15px;
 }
 
 .footer-links-menu li {
@@ -540,6 +532,9 @@ footer > nav:first-child {
   bottom: 20px;
   left: 20px;
   z-index: 3;
+}
+.cat-header li {
+  float: left;
 }
 
 .cat-image {
@@ -647,23 +642,21 @@ footer > nav:first-child {
   display: flex;
   flex-direction: column;
 }
-
-.mobile-latest-news-inner {
-  display: flex;
-  flex-direction: row;
-  margin: 10px 0;
-}
-
 #mobile-latest-news h2 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 #mobile-latest-news img {
   width: 75px;
   height: 75px;
   margin-right: 10px;
+}
+
+.mobile-latest-news-inner {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
 }
 
 .text-link-1 {
