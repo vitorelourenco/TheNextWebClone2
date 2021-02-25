@@ -12,12 +12,20 @@
   display: block;
 }
 
-.mobile-header li,
-.nav-funding-info li,
+.display-ib {
+  display: inline-block;
+}
+
+/*.nav-funding-info li {
+  display: inline-block;
+}
+*/
+
+/* .mobile-header li,
 .footer-legal li,
 .basic-header > div:first-child li {
   display: inline-block;
-}
+} */
 
 .mobile-latest-deals-link-image {
   margin-right: 0;
