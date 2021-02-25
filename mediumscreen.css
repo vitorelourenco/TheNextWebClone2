@@ -12,6 +12,13 @@
   display: block;
 }
 
+.mobile-header li,
+.nav-funding-info li,
+.footer-legal li,
+.basic-header > div:first-child li {
+  display: inline-block;
+}
+
 .mobile-latest-deals-link-image {
   margin-right: 0;
 }
@@ -37,22 +44,12 @@
   padding: 5px 10px;
 }
 
-.mobile-header li {
-  display: inline-block;
-}
-
 .nav-funding-info li {
-  display: inline-block;
   position: relative;
   padding: 0.75em 20px 0.75em 0;
 }
 
-.footer-legal li {
-  display: inline-block;
-}
-
 .basic-header > div:first-child li {
-  display: inline-block;
   vertical-align: super;
 }
 
