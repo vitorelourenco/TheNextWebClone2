@@ -65,3 +65,76 @@
 #main-article .cover-title {
   font-size: 56px;
 }
+
+/* END MILESTONE 1 */
+
+#latest-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px 15px;
+}
+
+#mobile-latest-news {
+  width: 70%;
+  margin: 0 15%;
+}
+
+#mobile-latest-news img {
+  width: 100%;
+  height: 150px;
+}
+
+.mobile-latest-news-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.link-image-latest-text {
+  width: 100%;
+}
+
+/* categories responsive */
+#categories {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  margin: 10px 10px;
+  grid-gap: 20px;
+}
+
+.cat-poster {
+  max-height: 276px;
+  max-width: 368px;
+}
+
+.cat-grid-items {
+  max-width: 368px;
+}
+
+/* categories responsive */
+
+/* Latest Deals */
+
+#deals-header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#latest-display-deals {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px 30px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.mobile-latest-deals-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  max-width: 270px;
+}

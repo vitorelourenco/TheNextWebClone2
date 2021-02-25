@@ -66,6 +66,98 @@ h5 {
   display: none;
 }
 
+.secondary-article img {
+  float: right;
+  height: 96px;
+  width: 96px;
+}
+
+.mobile-latest-deals-link-image > a > img {
+  width: 75px;
+  height: 75px;
+}
+
+.story-byline a {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.story-investment a {
+  text-decoration: none;
+}
+
+.cover-byline,
+.cover-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.footer-links-social li a {
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  height: 15px;
+  width: 15px;
+}
+
+.footer-links-menu li a {
+  color: #aaa;
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-weight: bold;
+}
+
+.latest-funding-header h2 a {
+  font-family: avalon, sans-serif;
+  color: #f42;
+  font-weight: bold;
+}
+
+.secondary-article > h4 > a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.cat-grid-items h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cat-grid-items > ul > li > a {
+  text-decoration: none;
+  color: #555;
+}
+
+.cat-grid-items > article > header li a {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+}
+
+.secondary-article h4,
+.secondary-article h5 {
+  padding-right: 100px;
+}
+
+.secondary-article h4 {
+  padding-left: 20px;
+  color: #f42;
+  font-size: 13px;
+}
+
+.secondary-article > h4 > a:hover {
+  text-decoration: underline;
+}
+
+.cat-header li {
+  float: left;
+}
+
 .mobile-header {
   display: flex;
   justify-content: space-between;
@@ -105,12 +197,6 @@ h5 {
   width: 20px;
 }
 
-.story-byline a {
-  color: #555;
-  font-size: 12px;
-  font-weight: 400;
-}
-
 .story-byline a span {
   color: #aaa;
   vertical-align: bottom;
@@ -128,10 +214,16 @@ h5 {
   transform: translateY(9px);
 }
 
+.nav-message-announcement > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .nav-message-announcement {
   line-height: 60px;
   font-family: maquette, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   padding: 5px 10px;
   box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
   background: #fd3;
@@ -165,14 +257,6 @@ h5 {
   font-weight: bold;
   color: white;
   text-decoration: none;
-}
-
-.cover-byline,
-.cover-byline a {
-  color: hsla(0, 0%, 100%, 0.6);
-  text-decoration: none;
-  font-size: 12px;
-  white-space: nowrap;
 }
 
 .cover-trigger {
@@ -256,27 +340,12 @@ footer > nav:first-child {
   background: #131313;
 }
 
-.story-investment a {
-  text-decoration: none;
-}
-
 .footer-links-social {
   margin-bottom: 1.5em;
 }
 
 .footer-links-social li {
   display: inline-block;
-}
-
-.footer-links-social li a {
-  background: #333;
-  border: 1px solid #333;
-  border-radius: 50%;
-  display: block;
-  padding: 12px;
-  text-align: center;
-  height: 15px;
-  width: 15px;
 }
 
 .footer-links-menu li {
@@ -287,13 +356,6 @@ footer > nav:first-child {
   font-size: 13px;
   line-height: 24px;
   margin: 0 4px;
-}
-
-.footer-links-menu li a {
-  color: #aaa;
-  text-decoration: none;
-  font-family: Shentox, sans-serif;
-  font-weight: bold;
 }
 
 .footer-legal {
@@ -319,12 +381,6 @@ footer > nav:first-child {
 /* latest funding section */
 .latest-funding-section {
   padding: 0 10px;
-}
-
-.latest-funding-header h2 a {
-  font-family: avalon, sans-serif;
-  color: #f42;
-  font-weight: bold;
 }
 
 .latest-funding-header h2 svg {
@@ -361,7 +417,7 @@ footer > nav:first-child {
 .story-investmentCard-deets h4 {
   font-size: 18px;
   color: #000;
-  margin: 0 !important;
+  margin: 0;
   font-weight: bold;
 }
 
@@ -388,8 +444,8 @@ footer > nav:first-child {
   background: #f42;
   color: #fff;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0 !important;
-  font-size: 16px !important;
+  margin: 0;
+  font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -434,7 +490,244 @@ footer > nav:first-child {
   padding: 16px;
 }
 
-.latest-funding-section > div:last-child > section:last-child,
-.latest-funding-section > div:last-child > section:nth-child(3) {
+.latest-funding-section > div:last-child > section:last-child {
   display: none;
 }
+
+#categories {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(9, auto);
+  margin: 10px 10px;
+  grid-gap: 20px;
+}
+
+#categories > section {
+  margin-bottom: 15px;
+}
+
+.cat-grid-items {
+  width: 100%;
+}
+
+.cat-grid-items h2 {
+  font-family: avalon, sans-serif;
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.cat-grid-items h3 {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-family: maquette, sans-serif;
+  font-size: 20px;
+}
+
+.cat-grid-items h5 {
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+
+.cat-grid-items > ul > li {
+  padding: 10px 0;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  position: relative;
+}
+
+.cat-grid-items > article > header li {
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.cat-grid-items > ul {
+  margin-left: 1em;
+}
+
+.cat-grid-items > ul li::before {
+  position: absolute;
+  left: -13px;
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.cat-grid-items > ul > li > a:hover {
+  color: black;
+}
+
+/* cat grid items ul ends here */
+
+.cat-header {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 3;
+}
+
+.cat-image {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.cat-poster {
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: calc((100vw - 20px) * 0.75);
+}
+
+.secondary-article {
+  margin-top: 3px;
+  position: relative;
+  background-color: rgba(255, 68, 34, 0.06);
+  height: 96px;
+  width: 100%;
+}
+
+.secondary-article h5 {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #f42;
+}
+
+.sec-art-img-anchor {
+  position: absolute;
+  right: 0;
+  height: 96px;
+  width: 96px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+/* deals starts here */
+.text-link-1-deals {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.text-link-1-deals:hover {
+  color: #f42;
+}
+
+.text-link-2-deals {
+  margin-top: 10px;
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+}
+
+.crossed-text {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+}
+
+#mobile-latest-deals {
+  margin: 10px 10px 20px 10px;
+}
+
+#deals-header {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+#deals-header-left,
+#deals-header-right {
+  text-decoration: none;
+  color: #f42;
+}
+
+#deals-header-left {
+  float: left;
+  font-size: 28px;
+  font-family: avalon, sans-serif;
+}
+
+#deals-header-right {
+  float: right;
+}
+
+#deals-header-left:hover,
+#deals-header-right:hover {
+  color: black;
+}
+
+#latest-display-deals {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+  grid-gap: 10px 10px;
+}
+
+.mobile-latest-deals-inner {
+  display: flex;
+}
+
+.mobile-latest-deals-link-image {
+  margin-right: 10px;
+}
+
+/* deals ends here */
+
+/* this is for latest news */
+#header-link {
+  text-decoration: none;
+  color: #f42;
+}
+
+#mobile-latest-news {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-latest-news-inner {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+#mobile-latest-news h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#mobile-latest-news img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.text-link-1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.text-link-2 {
+  margin-top: 10px;
+  font-size: 11px;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+/* this is for latest news */

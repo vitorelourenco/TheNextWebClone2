@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone/ )
+[Live Demo Link]( https://vitorelourenco.github.io/TheNextWebClone2/ )
 
 
 ### Deployment
@@ -42,12 +42,17 @@
 - Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
 - LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-18a8a7116/)
 
+👤 **Author3**
+
+- GitHub: [@tiagorahal](https://github.com/tiagorahal)
+- Twitter: [@RahalAires](https://twitter.com/RahalAires)
+- LinkedIn: [Tiago Rahal Aires](https://linkedin.com/tiagorahal)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page]( https://github.com/vitorelourenco/TheNextWebClone2/issues ).
 
 ## Show your support
 
@@ -60,6 +65,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT]( https://github.com/vitorelourenco/TheNextWebClone2/blob/milestone2/LICENSE ) licensed.
 
 

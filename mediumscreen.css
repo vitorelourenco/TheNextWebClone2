@@ -12,6 +12,25 @@
   display: block;
 }
 
+.display-ib,
+.footer-legal li {
+  display: inline-block;
+}
+
+.mobile-latest-deals-link-image {
+  margin-right: 0;
+}
+
+.mobile-latest-deals-link-image > a {
+  display: block;
+  width: 100%;
+}
+
+.mobile-latest-deals-link-image > a > img {
+  width: 100%;
+  height: 200px;
+}
+
 .story-investment > div {
   background: rgb(255, 250, 248);
 }
@@ -23,22 +42,12 @@
   padding: 5px 10px;
 }
 
-.mobile-header li {
-  display: inline-block;
-}
-
 .nav-funding-info li {
-  display: inline-block;
   position: relative;
   padding: 0.75em 20px 0.75em 0;
 }
 
-.footer-legal li {
-  display: inline-block;
-}
-
 .basic-header > div:first-child li {
-  display: inline-block;
   vertical-align: super;
 }
 
@@ -127,13 +136,81 @@
 
 /* hover classes */
 .turn-white-on-hover:hover {
-  color: white !important;
+  color: white;
 }
 
 .turn-black-on-hover:hover {
-  color: black !important;
+  color: black;
 }
 
 .turn-bg-black-on-hover:hover {
-  background-color: black !important;
+  background-color: black;
+}
+
+/* END MILESTONE 1 */
+
+/* LATEST NEWS */
+
+#latest-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 15px 15px;
+}
+
+#mobile-latest-news {
+  width: 80%;
+  margin: 0 10%;
+}
+
+#mobile-latest-news img {
+  width: 100%;
+  height: 10vh;
+}
+
+.mobile-latest-news-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+/* categories responsive */
+#categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  margin: 10px 10px;
+  grid-gap: 20px;
+}
+
+.cat-poster {
+  height: calc((50vw - 40px) * 0.75);
+}
+
+/* categories responsive */
+
+/* Latest Deals */
+
+#latest-display-deals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0 20px;
+}
+
+.link-image-latest-text {
+  width: 100%;
+}
+
+.mobile-latest-deals-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid yellow;
+  border-left: 100px solid transparent;
 }
