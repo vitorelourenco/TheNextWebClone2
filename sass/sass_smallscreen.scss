@@ -526,39 +526,34 @@ background: rgb(255, 250, 248);
 margin-bottom: 10px;
 }
 
-
-
-.story-investmentCard-deets h4 {
-font-size: 18px;
-color: #000;
-margin: 0;
-font-weight: bold;
-}
-
 .story-investmentCard-deets {
-padding: 10.6666666667px 16px 10.6666666667px 84px;
-color: #000;
-background: rgba(255, 68, 34, 0.08);
-margin: 0;
-}
-
-.story-investmentCard-deets h5 {
-color: #000;
-opacity: 0.5;
-font-size: 0.7em;
-font-weight: 600;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+  h4 {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+  }
+  h5 {
+    color: #000;
+    opacity: 0.5;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
 }
 
 #categories {
-display: grid;
-grid-template-columns: auto;
-grid-template-rows: repeat(9, auto);
-margin: 10px 10px;
-grid-gap: 20px;
-}
-
-#categories > section {
-margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(9, auto);
+  margin: 10px 10px;
+  grid-gap: 20px;
+  >section {
+    margin-bottom: 15px;
+  }
 }
 
 /* cat grid items ul ends here */
