@@ -2,19 +2,19 @@
 /* fonts */
 @font-face {
   font-family: "maquette";
-  src: url("assets/fonts/ARSMaquettePro-Regular.woff") format("woff"), url("assets/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/ARSMaquettePro-Regular.woff") format("woff"), url("../assets/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "avalon";
-  src: url("assets/fonts/Avalon_Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Avalon_Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Shentox";
-  src: url("assets/fonts/Shentox.ttf") format("truetype");
+  src: url("../assets/fonts/Shentox.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -68,7 +68,10 @@ h5 {
   width: 96px;
 }
 
-.mobile-latest-deals-link-image > a > img {
+.mobile-latest-deals-link-image {
+  margin-right: 10px;
+}
+.mobile-latest-deals-link-image a > img {
   width: 75px;
   height: 75px;
 }
@@ -304,15 +307,15 @@ h5 {
 }
 
 #main-article {
-  background-image: url(assets/images/main.jpg);
+  background-image: url(../assets/images/main.jpg);
 }
 
 #side-article1 {
-  background-image: url(assets/images/mainside1.webp);
+  background-image: url(../assets/images/mainside1.webp);
 }
 
 #side-article2 {
-  background-image: url(assets/images/mainside2.webp);
+  background-image: url(../assets/images/mainside2.webp);
 }
 
 .cover-div {
@@ -668,10 +671,6 @@ footer > nav:first-child {
 
 .mobile-latest-deals-inner {
   display: flex;
-}
-
-.mobile-latest-deals-link-image {
-  margin-right: 10px;
 }
 
 /* deals ends here */

@@ -1,3 +1,5 @@
+$primary-color: #f42;
+
 .menu,
 .logo,
 #gradient-div {
@@ -105,7 +107,7 @@
   display: inline-block;
   pointer-events: none;
   position: absolute;
-  color: #f42;
+  color: $primary-color;
 }
 
 .latest-funding-section > div:last-child > section:nth-child(3) {

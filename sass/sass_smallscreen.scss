@@ -1,23 +1,25 @@
+$primary-color: #f42;
+
 /* fonts */
 @font-face {
     font-family: "maquette";
     src:
-      url("assets/fonts/ARSMaquettePro-Regular.woff") format("woff"),
-      url("assets/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
+      url("../assets/fonts/ARSMaquettePro-Regular.woff") format("woff"),
+      url("../assets/fonts/ARSMaquettePro-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: "avalon";
-    src: url("assets/fonts/Avalon_Bold.ttf") format("truetype");
+    src: url("../assets/fonts/Avalon_Bold.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Shentox";
-    src: url("assets/fonts/Shentox.ttf") format("truetype");
+    src: url("../assets/fonts/Shentox.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
@@ -28,7 +30,7 @@
   }
   
   h4 {
-    color: #f42;
+    color: $primary-color;
     font-weight: 700;
     line-height: 1.25;
   }
@@ -72,10 +74,14 @@
     width: 96px;
   }
   
-  .mobile-latest-deals-link-image > a > img {
-    width: 75px;
-    height: 75px;
+  .mobile-latest-deals-link-image {
+    margin-right: 10px;
+    a > img {
+        width: 75px;
+        height: 75px;
+    }
   }
+
   
   .story-byline a {
     color: #555;
@@ -115,13 +121,13 @@
   
   .latest-funding-header h2 a {
     font-family: avalon, sans-serif;
-    color: #f42;
+    color: $primary-color;
     font-weight: bold;
   }
   
   .secondary-article > h4 > a {
     text-decoration: none;
-    color: #f42;
+    color: $primary-color;
   }
   
   .cat-grid-items h3 a {
@@ -146,7 +152,7 @@
   
   .secondary-article h4 {
     padding-left: 20px;
-    color: #f42;
+    color: $primary-color;
     font-size: 13px;
   }
   
@@ -191,7 +197,7 @@
   
   .menu span {
     transition: 0.4s;
-    background-color: #f42;
+    background-color: $primary-color;
     display: block;
     height: 2px;
     width: 20px;
@@ -311,15 +317,15 @@
   }
   
   #main-article {
-    background-image: url(assets/images/main.jpg);
+    background-image: url(../assets/images/main.jpg);
   }
   
   #side-article1 {
-    background-image: url(assets/images/mainside1.webp);
+    background-image: url(../assets/images/mainside1.webp);
   }
   
   #side-article2 {
-    background-image: url(assets/images/mainside2.webp);
+    background-image: url(../assets/images/mainside2.webp);
   }
   
   .cover-div {
@@ -397,7 +403,7 @@
   
   .deals-header-more {
     padding-top: 1em;
-    color: #f42;
+    color: $primary-color;
     text-decoration: none;
     display: block;
     font-family: maquette, sans-serif;
@@ -441,7 +447,7 @@
   }
   
   .story-investment > div:first-child > a > h4 {
-    background: #f42;
+    background: $primary-color;
     color: #fff;
     padding: 10.6666666667px 16px 10.6666666667px 84px;
     margin: 0;
@@ -513,7 +519,7 @@
   .cat-grid-items h2 {
     font-family: avalon, sans-serif;
     font-size: 28px;
-    color: #f42;
+    color: $primary-color;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 14px;
@@ -552,7 +558,7 @@
     position: absolute;
     left: -13px;
     content: "\2022";
-    color: #f42;
+    color: $primary-color;
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -600,7 +606,7 @@
   .secondary-article h5 {
     padding-top: 10px;
     padding-left: 20px;
-    color: #f42;
+    color: $primary-color;
   }
   
   .sec-art-img-anchor {
@@ -621,7 +627,7 @@
   }
   
   .text-link-1-deals:hover {
-    color: #f42;
+    color: $primary-color;
   }
   
   .text-link-2-deals {
@@ -649,7 +655,7 @@
   #deals-header-left,
   #deals-header-right {
     text-decoration: none;
-    color: #f42;
+    color: $primary-color;
   }
   
   #deals-header-left {
@@ -678,16 +684,14 @@
     display: flex;
   }
   
-  .mobile-latest-deals-link-image {
-    margin-right: 10px;
-  }
+  
   
   /* deals ends here */
   
   /* this is for latest news */
   #header-link {
     text-decoration: none;
-    color: #f42;
+    color: $primary-color;
   }
   
   #mobile-latest-news {
