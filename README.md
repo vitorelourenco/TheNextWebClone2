@@ -42,6 +42,11 @@
 - Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)
 - LinkedIn: [Maha Magdy](https://www.linkedin.com/in/maha-magdy-18a8a7116/)
 
+👤 **Author3**
+
+- GitHub: [@tiagorahal](https://github.com/tiagorahal)
+- Twitter: [@RahalAires](https://twitter.com/RahalAires)
+- LinkedIn: [Tiago Rahal Aires](https://linkedin.com/tiagorahal)
 
 ## 🤝 Contributing
 
