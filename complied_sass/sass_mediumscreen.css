@@ -1,0 +1,214 @@
+.menu,
+.logo,
+#gradient-div {
+  display: none;
+}
+
+.left-general-navigation,
+.right-general-navigation,
+.home-navigation,
+.cover-logo,
+.cover-date {
+  display: block;
+}
+
+.display-ib,
+.footer-legal li {
+  display: inline-block;
+}
+
+.mobile-latest-deals-link-image {
+  margin-right: 0;
+}
+
+.mobile-latest-deals-link-image > a {
+  display: block;
+  width: 100%;
+}
+
+.mobile-latest-deals-link-image > a > img {
+  width: 100%;
+  height: 200px;
+}
+
+.story-investment > div {
+  background: #fffaf8;
+}
+
+.basic-header > div:first-child {
+  background-color: #131313;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.nav-funding-info li {
+  position: relative;
+  padding: 0.75em 20px 0.75em 0;
+}
+
+.basic-header > div:first-child li {
+  vertical-align: super;
+}
+
+.mobile-header nav a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.basic-header > div:first-child a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.mobile-header {
+  padding: 5px 10px;
+}
+
+.mobile-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  padding: 12px;
+}
+
+.nav-message-announcement {
+  line-height: 30px;
+}
+
+#grid-container {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 10px 10px;
+  margin-top: 126px;
+}
+
+#main-article {
+  grid-area: 1/1/3/2;
+}
+
+#main-article .cover-title {
+  font-size: 40px;
+}
+
+.nav-funding-info li:first-child::after,
+.nav-funding-info li:nth-child(2)::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  pointer-events: none;
+  position: absolute;
+  color: #f42;
+}
+
+.latest-funding-section > div:last-child > section:nth-child(3) {
+  display: block;
+}
+
+.story-flex {
+  display: flex;
+  width: 100%;
+}
+
+.deals-header-more {
+  display: inline-block;
+  padding: 0;
+}
+
+.story-investment {
+  width: 32.666%;
+}
+
+.story-flex .story-investment:nth-child(2) {
+  margin: 0 2%;
+}
+
+.latest-funding-section > div:last-child {
+  margin-top: unset;
+}
+
+/* hover classes */
+.turn-white-on-hover:hover {
+  color: white;
+}
+
+.turn-black-on-hover:hover {
+  color: black;
+}
+
+.turn-bg-black-on-hover:hover {
+  background-color: black;
+}
+
+/* END MILESTONE 1 */
+/* LATEST NEWS */
+#latest-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 15px 15px;
+}
+
+#mobile-latest-news {
+  width: 80%;
+  margin: 0 10%;
+}
+
+#mobile-latest-news img {
+  width: 100%;
+  height: 10vh;
+}
+
+.mobile-latest-news-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+/* categories responsive */
+#categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  margin: 10px 10px;
+  grid-gap: 20px;
+}
+
+.cat-poster {
+  height: calc((50vw - 40px) * 0.75);
+}
+
+/* categories responsive */
+/* Latest Deals */
+#latest-display-deals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0 20px;
+}
+
+.link-image-latest-text {
+  width: 100%;
+}
+
+.mobile-latest-deals-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid yellow;
+  border-left: 100px solid transparent;
+}
+
+/*# sourceMappingURL=sass_mediumscreen.css.map */
