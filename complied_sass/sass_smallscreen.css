@@ -163,6 +163,17 @@ h5 {
   color: #f42;
   font-weight: bold;
 }
+.latest-funding-header h2 svg {
+  display: inline-block;
+  background-size: 16px 16px;
+  content: "";
+  margin-left: 4px;
+  position: relative;
+  top: 0;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+}
 
 .cat-grid-items {
   width: 100%;
@@ -476,18 +487,6 @@ footer > nav:first-child {
 }
 .latest-funding-section > div:last-child > section:last-child {
   display: none;
-}
-
-.latest-funding-header h2 svg {
-  display: inline-block;
-  background-size: 16px 16px;
-  content: "";
-  margin-left: 4px;
-  position: relative;
-  top: 0;
-  vertical-align: middle;
-  height: 14px;
-  width: 14px;
 }
 
 .deals-header-more {

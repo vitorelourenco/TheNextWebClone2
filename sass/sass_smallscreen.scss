@@ -172,10 +172,23 @@ height: 15px;
 width: 15px;
 }
 
-.latest-funding-header h2 a {
-font-family: avalon, sans-serif;
-color: $primary-color;
-font-weight: bold;
+.latest-funding-header h2 {
+  a {
+    font-family: avalon, sans-serif;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  svg {
+    display: inline-block;
+    background-size: 16px 16px;
+    content: "";
+    margin-left: 4px;
+    position: relative;
+    top: 0;
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+  }
 }
 
 .cat-grid-items {
@@ -498,19 +511,6 @@ height: 9px;
   }
 }
 
-
-.latest-funding-header h2 svg {
-display: inline-block;
-background-size: 16px 16px;
-content: "";
-margin-left: 4px;
-position: relative;
-top: 0;
-vertical-align: middle;
-height: 14px;
-width: 14px;
-}
-
 .deals-header-more {
 padding-top: 1em;
 color: $primary-color;
@@ -657,8 +657,6 @@ grid-gap: 10px 10px;
 .mobile-latest-deals-inner {
 display: flex;
 }
-
-
 
 /* deals ends here */
 
