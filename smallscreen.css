@@ -439,7 +439,7 @@ footer > nav:first-child {
   display: none;
 }
 
-#categories{
+#categories {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(9, auto);
@@ -451,11 +451,11 @@ footer > nav:first-child {
   margin-bottom: 15px;
 }
 
-.cat-grid-items{
+.cat-grid-items {
   width: 100%;
 }
 
-.cat-grid-items h2{
+.cat-grid-items h2 {
   font-family: avalon, sans-serif;
   font-size: 28px;
   color: #f42;
@@ -464,30 +464,30 @@ footer > nav:first-child {
   margin-bottom: 14px;
 }
 
-.cat-grid-items h3{
+.cat-grid-items h3 {
   margin-bottom: 6px;
   font-weight: 700;
-  font-family: maquette,sans-serif;
+  font-family: maquette, sans-serif;
   font-size: 20px;
 }
 
-.cat-grid-items h3 a{
+.cat-grid-items h3 a {
   text-decoration: none;
   color: #fff;
 }
 
-.cat-grid-items h5{
+.cat-grid-items h5 {
   font-family: Shentox, sans-serif;
   font-size: 13px;
   color: #fff;
 }
 
-.cat-grid-items > article > header li{
+.cat-grid-items > article > header li {
   font-size: 12px;
   color: hsla(0,0%,100%,.6);
 }
 
-.cat-grid-items > article > header li a{
+.cat-grid-items > article > header li a {
   color: hsla(0,0%,100%,.6);
   text-decoration: none;
 }
@@ -514,25 +514,25 @@ footer > nav:first-child {
   width: 1em;
 }
 
-.cat-grid-items > ul > li > a{
+.cat-grid-items > ul > li > a {
   text-decoration: none;
   color: #555;
 }
 
-.cat-grid-items > ul > li > a:hover{
+.cat-grid-items > ul > li > a:hover {
   color: black;
 }
 
 /* cat grid items ul ends here */
 
-.cat-header{
+.cat-header {
   position: absolute;
   bottom: 20px;
   left: 20px;
   z-index: 3;
 }
 
-.cat-header li{
+.cat-header li {
   float: left;
 }
 
@@ -547,7 +547,7 @@ footer > nav:first-child {
   z-index: 2;
 }
 
-.cat-poster{
+.cat-poster {
   background-size: 100% 100%;
   position: relative;
   width: 100%;
@@ -563,31 +563,31 @@ footer > nav:first-child {
 }
 
 .secondary-article h4,
-.secondary-article h5{
+.secondary-article h5 {
   padding-right: 100px;
 }
 
-.secondary-article h4{
+.secondary-article h4 {
   padding-left: 20px;
   color: #f42;
 }
 
-.secondary-article > h4 > a{
+.secondary-article > h4 > a {
   text-decoration: none;
   color: #f42;
 }
 
-.secondary-article > h4 > a:hover{
+.secondary-article > h4 > a:hover {
   text-decoration: underline;
 }
 
-.secondary-article h5{
+.secondary-article h5 {
   padding-top: 10px;
   padding-left: 20px;
   color: #f42;
 }
 
-.sec-art-img-anchor{
+.sec-art-img-anchor {
   position: absolute;
   right: 0;
   height: 96px;
@@ -596,7 +596,7 @@ footer > nav:first-child {
   background-size: cover;
 }
 
-.secondary-article img{
+.secondary-article img {
   float: right;
   height: 96px;
   width: 96px;
@@ -625,11 +625,11 @@ footer > nav:first-child {
   font-size: 12px;
 }
 
-#mobile-latest-deals{
+#mobile-latest-deals {
   margin: 10px 10px 340px 10px;
 }
 
-#deals-header{
+#deals-header {
   height: 32px;
   line-height: 32px;
   margin-bottom: 20px;
@@ -646,39 +646,36 @@ footer > nav:first-child {
   color: black;
 }
 
-#deals-header-left{
+#deals-header-left {
   float: left;
   font-size: 28px;
   font-family: avalon;
 }
 
-#deals-header-right{
+#deals-header-right {
   float: right;
 }
 
-#latest-display-deals{
+#latest-display-deals {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, auto);
   grid-gap: 10px 10px;
 }
 
-.mobile-latest-deals-inner{
+.mobile-latest-deals-inner {
   display: flex;
 }
 
-.mobile-latest-deals-link-image{
+.mobile-latest-deals-link-image {
   margin-right: 10px;
 }
 /* deals ends here */
 
-/* remove this later */
-.mobile-latest-deals-link-image > a > img{
+.mobile-latest-deals-link-image > a > img {
   width: 75px;
   height: 75px;
 }
-/* remove this later */
-
 
 /* this is for latest news */
 #header-link {
@@ -709,11 +706,11 @@ footer > nav:first-child {
 }
 
 .text-link-1 {
- text-decoration: none;
- color: black;
- font-weight: bold;
- font-size: 14px;
- margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .text-link-2 {

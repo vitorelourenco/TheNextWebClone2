@@ -12,6 +12,20 @@
   display: block;
 }
 
+.mobile-latest-deals-link-image {
+  margin-right: 0;
+}
+
+.mobile-latest-deals-link-image > a {
+  display: block;
+  width: 100%;
+}
+
+.mobile-latest-deals-link-image > a > img {
+  width: 100%;
+  height: 200px;
+}
+
 .story-investment > div {
   background: rgb(255, 250, 248);
 }
@@ -189,21 +203,7 @@
   grid-gap: 0 20px;
 }
 
-.mobile-latest-deals-link-image {
-  margin-right: 0;
-}
-
-.mobile-latest-deals-link-image > a {
-  display: block;
-  width: 100%;
-}
-
-.mobile-latest-deals-link-image > a > img{
-  width: 100%;
-  height: 200px;
-}
-
-.link-image-latest-text{
+.link-image-latest-text {
   width: 100%;
 }
 
