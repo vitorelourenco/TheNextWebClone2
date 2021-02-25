@@ -62,10 +62,38 @@ h5 {
   display: none;
 }
 
+.secondary-article {
+  margin-top: 3px;
+  position: relative;
+  background-color: rgba(255, 68, 34, 0.06);
+  height: 96px;
+  width: 100%;
+}
 .secondary-article img {
   float: right;
   height: 96px;
   width: 96px;
+}
+.secondary-article h4 > a:hover {
+  text-decoration: underline;
+}
+.secondary-article h4 > a {
+  text-decoration: none;
+  color: #f42;
+}
+.secondary-article h4 {
+  padding-left: 20px;
+  color: #f42;
+  font-size: 13px;
+}
+.secondary-article h5 {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #f42;
+}
+.secondary-article h4,
+.secondary-article h5 {
+  padding-right: 100px;
 }
 
 .mobile-latest-deals-link-image {
@@ -74,12 +102,6 @@ h5 {
 .mobile-latest-deals-link-image a > img {
   width: 75px;
   height: 75px;
-}
-
-.story-byline a {
-  color: #555;
-  font-size: 12px;
-  font-weight: 400;
 }
 
 .story-investment a {
@@ -118,11 +140,6 @@ h5 {
   font-weight: bold;
 }
 
-.secondary-article > h4 > a {
-  text-decoration: none;
-  color: #f42;
-}
-
 .cat-grid-items h3 a {
   text-decoration: none;
   color: #fff;
@@ -136,21 +153,6 @@ h5 {
 .cat-grid-items > article > header li a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-}
-
-.secondary-article h4,
-.secondary-article h5 {
-  padding-right: 100px;
-}
-
-.secondary-article h4 {
-  padding-left: 20px;
-  color: #f42;
-  font-size: 13px;
-}
-
-.secondary-article > h4 > a:hover {
-  text-decoration: underline;
 }
 
 .cat-header li {
@@ -196,6 +198,16 @@ h5 {
   width: 20px;
 }
 
+.story-byline {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 0;
+  padding: 16px;
+}
+.story-byline a {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+}
 .story-byline a span {
   color: #aaa;
   vertical-align: bottom;
@@ -480,12 +492,6 @@ footer > nav:first-child {
   margin-bottom: 0.5em;
 }
 
-.story-byline {
-  border-top: 1px solid rgba(255, 68, 34, 0.25);
-  margin-top: 0;
-  padding: 16px;
-}
-
 .latest-funding-section > div:last-child > section:last-child {
   display: none;
 }
@@ -582,20 +588,6 @@ footer > nav:first-child {
   position: relative;
   width: 100%;
   height: calc((100vw - 20px) * 0.75);
-}
-
-.secondary-article {
-  margin-top: 3px;
-  position: relative;
-  background-color: rgba(255, 68, 34, 0.06);
-  height: 96px;
-  width: 100%;
-}
-
-.secondary-article h5 {
-  padding-top: 10px;
-  padding-left: 20px;
-  color: #f42;
 }
 
 .sec-art-img-anchor {

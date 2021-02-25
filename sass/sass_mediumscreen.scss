@@ -44,11 +44,6 @@ $primary-color: #f42;
   padding: 5px 10px;
 }
 
-.nav-funding-info li {
-  position: relative;
-  padding: 0.75em 20px 0.75em 0;
-}
-
 .basic-header > div:first-child li {
   vertical-align: super;
 }
@@ -99,15 +94,22 @@ $primary-color: #f42;
   font-size: 40px;
 }
 
-.nav-funding-info li:first-child::after,
-.nav-funding-info li:nth-child(2)::after {
-  content: "|";
-  margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
-  pointer-events: none;
-  position: absolute;
-  color: $primary-color;
+.nav-funding-info {
+  li {
+    position: relative;
+    padding: 0.75em 20px 0.75em 0;
+  }
+
+  li:first-child::after,
+  li:nth-child(2)::after{
+    content: "|";
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    pointer-events: none;
+    position: absolute;
+    color: $primary-color;
+  }
 }
 
 .latest-funding-section > div:last-child > section:nth-child(3) {

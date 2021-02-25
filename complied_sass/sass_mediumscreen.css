@@ -42,11 +42,6 @@
   padding: 5px 10px;
 }
 
-.nav-funding-info li {
-  position: relative;
-  padding: 0.75em 20px 0.75em 0;
-}
-
 .basic-header > div:first-child li {
   vertical-align: super;
 }
@@ -97,6 +92,10 @@
   font-size: 40px;
 }
 
+.nav-funding-info li {
+  position: relative;
+  padding: 0.75em 20px 0.75em 0;
+}
 .nav-funding-info li:first-child::after,
 .nav-funding-info li:nth-child(2)::after {
   content: "|";
