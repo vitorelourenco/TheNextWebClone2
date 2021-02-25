@@ -96,7 +96,7 @@
 }
 
 /* categories responsive */
-#categories{
+#categories {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, auto);
@@ -105,19 +105,20 @@
   grid-gap: 20px;
 }
 
-.cat-poster{
+.cat-poster {
   max-height: 276px;
-  max-width: 368px
-}
-
-.cat-grid-items{
   max-width: 368px;
 }
+
+.cat-grid-items {
+  max-width: 368px;
+}
+
 /* categories responsive */
 
 /* Latest Deals */
 
-#deals-header{
+#deals-header {
   max-width: 1140px;
   margin: 0 auto;
 }

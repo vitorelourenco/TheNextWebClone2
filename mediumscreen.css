@@ -154,7 +154,6 @@
   margin: 0 10%;
 }
 
-
 #mobile-latest-news img {
   width: 100%;
   height: 10vh;
@@ -166,12 +165,8 @@
   margin: 10px 0;
 }
 
-.link-image-latest-text {
-  width: 100%;
-}
-
 /* categories responsive */
-#categories{
+#categories {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, auto);
@@ -179,9 +174,10 @@
   grid-gap: 20px;
 }
 
-.cat-poster{
+.cat-poster {
   height: calc((50vw - 40px) * 0.75);
 }
+
 /* categories responsive */
 
 /* Latest Deals */
@@ -190,7 +186,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 0px 20px;
+  grid-gap: 0 20px;
 }
 
 .mobile-latest-deals-link-image {
