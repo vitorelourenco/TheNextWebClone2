@@ -417,7 +417,7 @@ footer > nav:first-child {
 .story-investmentCard-deets h4 {
   font-size: 18px;
   color: #000;
-  margin: 0 !important;
+  margin: 0;
   font-weight: bold;
 }
 
@@ -444,8 +444,8 @@ footer > nav:first-child {
   background: #f42;
   color: #fff;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0 !important;
-  font-size: 16px !important;
+  margin: 0;
+  font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

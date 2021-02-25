@@ -141,15 +141,15 @@
 
 /* hover classes */
 .turn-white-on-hover:hover {
-  color: white !important;
+  color: white;
 }
 
 .turn-black-on-hover:hover {
-  color: black !important;
+  color: black;
 }
 
 .turn-bg-black-on-hover:hover {
-  background-color: black !important;
+  background-color: black;
 }
 
 /* END MILESTONE 1 */
