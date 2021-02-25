@@ -661,6 +661,16 @@ height: 9px;
   color: $primary-color;
 }
 
+.latest-news-background{
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
 #mobile-latest-news {
   margin: 20px 20px;
   display: flex;
