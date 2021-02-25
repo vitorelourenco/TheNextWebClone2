@@ -135,6 +135,9 @@ h5 {
   text-overflow: ellipsis;
   font-weight: bold;
 }
+.story-investment > div:nth-child(2) {
+  padding: 16px;
+}
 
 .cover-byline,
 .cover-byline a {
@@ -365,6 +368,19 @@ h5 {
   z-index: 2;
 }
 
+.story-investmentCard-bit:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+.story-investmentCard-bit {
+  padding-left: 2em;
+  position: relative;
+  font-size: 13px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
+}
 .story-investmentCard-bit svg {
   position: absolute;
   top: 0.2em;
@@ -511,24 +527,6 @@ footer > nav:first-child {
   opacity: 0.5;
   font-size: 0.7em;
   font-weight: 600;
-}
-
-.story-investment > div:nth-child(2) {
-  padding: 16px;
-}
-
-.story-investmentCard-bit {
-  padding-left: 2em;
-  position: relative;
-  font-size: 13px;
-  color: #555;
-  margin-right: 1em;
-  display: block;
-  line-height: 22px;
-}
-
-.story-investmentCard-bit:not(:last-child) {
-  margin-bottom: 0.5em;
 }
 
 #categories {
